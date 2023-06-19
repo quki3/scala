@@ -1,6 +1,8 @@
-# Scala_GNB
- - *get started*
- - scala is a statically typed languege as java but its litle bit different from java.
- - what is statically typed language? firt a variable has a type and can hold only values of that type. So if you need to declare a variable you need to declare its type also it mean that if you not declare a type a type error are caught by compiler
- -
- - https://www.youtube.com/watch?v=LQVDJtfpQU0&list=PLS1QulWo1RIagob5D6kMIAvu7DQC5VTh3
+# SCALA
+
+## INTRODUCTION
+Scala is an modern multi-paradigm programming language, is written by Martin Odersky, is statically Typed, Runs on JVM, full
+inter-op with java is Object Oriented and funcional Scala blends object-oriented and functional programming.
+you can Mixed Scala java project also you can use existing libraries use java tools decent IDE support
+
+@you@stayed@here(https://www.youtube.com/watch?v=OfngvXKNkpM min 6.57 video)
