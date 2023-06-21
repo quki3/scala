@@ -1,5 +1,5 @@
 # SCALA
-
+` Last update jun 21 2023 `
 ## INTRODUCTION
 Scala is an modern multi-paradigm programming language, is written by Martin Odersky, is statically Typed, Runs on JVM, have full inter-op with java,  is Object Oriented and funcional,  Scala blends object-oriented and functional programming.
 you can Mixed Scala java project also you can use existing libraries use java tools decent IDE support (NetBeans, IntelliJ,Eclipse).
@@ -16,8 +16,9 @@ SBT can launch REPL (Read-Eval-Print Loop) in project context.
 
 ## CHALLENGES
 ### 8kyu
-1. 	-(A) with this <a href="https://docs.scala-lang.org/scala3/book/tools-sbt.html" >documentation</a> create a "Hello, word" project
+1. 
+- (A) with this <a href="https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html" >documentation</a> create a "Hello, word" project
 
-@herehttps://www.youtube.com/watch?v=OfngvXKNkpM
+
 
 
