@@ -1,22 +1,18 @@
-object HelloWorld {
-def printHello(): Unit = {
-println("Hello, World!")
-}
-}
 
-//helloTest.scala
+
+//MySuite.scala
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
-import org.scalatest._
+import org.scalatest.funsuite.AnyFunSuite
 
-class HelloWorldTest extends FlatSpec with Matchers {
-
-"HelloWorld" should "print 'Hello, World!'" in {
-val outputStream = new ByteArrayOutputStream()
-Console.withOut(new PrintStream(outputStream)) {
-HelloWorld.printHello()
-}
-val printedOutput = outputStream.toString.trim
-printedOutput should be("Hello, World!")
-}
+class HelloWorldTest extends AnyFunSuite {
+  test ("hello") {
+   val outputStream = new ByteArrayOutputStream()
+   Console.withOut(new PrintStream(outputStream)) {
+    //this part is importan! I dont know if hello can be used here 
+    hello()
+   }
+   val printedOutput = outputStream.toString.trim
+   assert(printedOutput === "Hello, World!"))
+  }
 }
