@@ -1,9 +1,22 @@
-// For more information on writing tests, see
-// https://scalameta.org/munit/docs/getting-started.html
-class MySuite extends munit.FunSuite {
-  test("example test that succeeds") {
-    val obtained = 42
-    val expected = 42
-    assertEquals(obtained, expected)
-  }
+object HelloWorld {
+def printHello(): Unit = {
+println("Hello, World!")
+}
+}
+
+//helloTest.scala
+import java.io.ByteArrayOutputStream
+import java.io.PrintStream
+import org.scalatest._
+
+class HelloWorldTest extends FlatSpec with Matchers {
+
+"HelloWorld" should "print 'Hello, World!'" in {
+val outputStream = new ByteArrayOutputStream()
+Console.withOut(new PrintStream(outputStream)) {
+HelloWorld.printHello()
+}
+val printedOutput = outputStream.toString.trim
+printedOutput should be("Hello, World!")
+}
 }
