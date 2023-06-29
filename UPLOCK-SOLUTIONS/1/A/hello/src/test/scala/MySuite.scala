@@ -1,8 +1,9 @@
 
 
 //MySuite.scala
-// java.io.ByteArrayOutputStream - This class implements an output stream in which the data is written into a byte array
+// java.io.ByteArrayOutputStream - This class implements an output stream in which the data is written into a byte array(buffer)
 import java.io.ByteArrayOutputStream
+// java.io.PrintStream - adds functionality
 import java.io.PrintStream
 import org.scalatest.funsuite.AnyFunSuite
 
