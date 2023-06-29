@@ -1,5 +1,5 @@
 # scala
-` Last update jun 23 2023 `
+` Last update jun 29 2023 `
 ## Introduction
 Scala is an modern multi-paradigm programming language, is written by Martin Odersky, is statically Typed, Runs on JVM, have full inter-op with java,  is Object Oriented and funcional,  Scala blends object-oriented and functional programming.
 you can Mixed Scala java project also you can use existing libraries use java tools decent IDE support (NetBeans, IntelliJ,Eclipse).
