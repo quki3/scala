@@ -5,6 +5,10 @@
 import java.io.ByteArrayOutputStream
 // java.io.PrintStream - adds functionality
 import java.io.PrintStream
+// org
+// scalatest
+// funsuite
+// anyFunSuite
 import org.scalatest.funsuite.AnyFunSuite
 
 class HelloWorldTest extends AnyFunSuite {
