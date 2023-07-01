@@ -5,8 +5,7 @@
 import java.io.ByteArrayOutputStream
 // java.io.PrintStream - adds functionality
 import java.io.PrintStream
-// org
-// scalatest
+// org.scalatest - This is the package name where ScalaTest is located. ScalaTest is a popular testing framework for Scala.
 // funsuite
 // anyFunSuite
 import org.scalatest.funsuite.AnyFunSuite
