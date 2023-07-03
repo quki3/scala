@@ -1,9 +1,9 @@
 # scala
-` Last update jun 30 2023 `
+` Last update jul 3 2023 `
 ## Introduction
 <a href="https://github.com/lampepfl/dotty">github</a>
 ### SBT
-sbt
+<a href="https://www.scala-sbt.org/">sbt</a>
 ## INSTALLATION AND DOWNLOAD
 <a href="https://www.scala-sbt.org/download.html">install</a>
 ## CHALLENGES
